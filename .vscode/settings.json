@@ -1,0 +1,22 @@
+{
+    "window.zoomLevel": 0,
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.git": false
+    },
+    "code-runner.executorMap": {
+      "python": "$pythonPath $fullFileName"
+    },
+    "explorer.sortOrder": "default",
+    "html.autoClosingTags": false,
+  
+    // Enable Pyright for better Pydantic warnings
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.useLibraryCodeForTypes": true,
+    
+    // Set tab size to 4 spaces
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "makefile.configureOnOpen": false
+  }
